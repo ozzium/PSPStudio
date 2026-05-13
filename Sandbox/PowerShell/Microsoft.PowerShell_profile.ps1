@@ -1,0 +1,6 @@
+﻿# PSPStudio Sandbox Profile
+
+Write-Host "Sandbox profile loaded." -ForegroundColor Cyan
+
+dddd
+
