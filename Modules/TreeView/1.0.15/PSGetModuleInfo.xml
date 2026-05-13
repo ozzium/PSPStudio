@@ -6,16 +6,16 @@
       <T>System.Object</T>
     </TN>
     <MS>
-      <S N="Name">TreePlus</S>
-      <Version N="Version">1.0.1</Version>
+      <S N="Name">TreeView</S>
+      <Version N="Version">1.0.15</Version>
       <S N="Type">Module</S>
-      <S N="Description">A PowerShell module that displays directory trees with color-coded folders and files, mimicking 'tree /f' with enhanced readability and Unicode formatting. Useful for visualizing folder structures in a modern way directly from the PowerShell prompt.</S>
-      <S N="Author">sucktravian</S>
-      <S N="CompanyName">Sucktravian</S>
-      <S N="Copyright">(c) 2025 sucktravian. All rights reserved.</S>
-      <DT N="PublishedDate">2025-05-22T06:16:13-04:00</DT>
+      <S N="Description">A Tree View command with icons and colors</S>
+      <S N="Author">Yue Zhang</S>
+      <S N="CompanyName">AlpacaZhang</S>
+      <S N="Copyright">(c) 2025 ZhangYue. All rights reserved.</S>
+      <DT N="PublishedDate">2025-11-17T06:33:56-05:00</DT>
       <Obj N="InstalledDate" RefId="1">
-        <DT>2026-05-12T20:46:23.8038538-04:00</DT>
+        <DT>2026-05-12T20:46:49.0320337-04:00</DT>
         <MS>
           <Obj N="DisplayHint" RefId="2">
             <TN RefId="1">
@@ -30,8 +30,8 @@
         </MS>
       </Obj>
       <Nil N="UpdatedDate" />
-      <URI N="LicenseUri">https://opensource.org/licenses/MIT</URI>
-      <URI N="ProjectUri">https://github.com/sucktravian/TreePlus</URI>
+      <Nil N="LicenseUri" />
+      <Nil N="ProjectUri" />
       <Nil N="IconUri" />
       <Obj N="Tags" RefId="3">
         <TN RefId="2">
@@ -40,19 +40,12 @@
           <T>System.Object</T>
         </TN>
         <LST>
-          <S>filesystem</S>
           <S>tree</S>
+          <S>filesystem</S>
           <S>directory</S>
-          <S>structure</S>
-          <S>powershell</S>
-          <S>files</S>
-          <S>folders</S>
-          <S>colors</S>
-          <S>terminal</S>
-          <S>unicode</S>
-          <S>cli</S>
-          <S>visualization</S>
-          <S>fileexplorer</S>
+          <S>view</S>
+          <S>icon</S>
+          <S>color</S>
           <S>PSModule</S>
         </LST>
       </Obj>
@@ -67,7 +60,7 @@
             <Obj N="Value" RefId="5">
               <TNRef RefId="2" />
               <LST>
-                <S>Show-Tree</S>
+                <S>TreeView</S>
               </LST>
             </Obj>
           </En>
@@ -76,7 +69,7 @@
             <Obj N="Value" RefId="6">
               <TNRef RefId="2" />
               <LST>
-                <S>Show-Tree</S>
+                <S>TreeView</S>
               </LST>
             </Obj>
           </En>
@@ -116,32 +109,31 @@
           <T>System.Object</T>
         </TN>
         <MS>
-          <S N="copyright">(c) 2025 sucktravian. All rights reserved.</S>
-          <S N="description">A PowerShell module that displays directory trees with color-coded folders and files, mimicking 'tree /f' with enhanced readability and Unicode formatting. Useful for visualizing folder structures in a modern way directly from the PowerShell prompt.</S>
+          <S N="copyright">(c) 2025 ZhangYue. All rights reserved.</S>
+          <S N="description">A Tree View command with icons and colors</S>
           <S N="requireLicenseAcceptance">False</S>
           <S N="isLatestVersion">True</S>
           <S N="isAbsoluteLatestVersion">True</S>
-          <S N="versionDownloadCount">70</S>
-          <S N="downloadCount">77</S>
-          <S N="packageSize">101705</S>
-          <S N="published">5/22/2025 6:16:13 AM -04:00</S>
-          <S N="created">5/22/2025 6:16:13 AM -04:00</S>
-          <S N="lastUpdated">5/13/2026 12:40:00 AM -04:00</S>
-          <S N="tags">filesystem tree directory structure powershell files folders colors terminal unicode cli visualization fileexplorer PSModule</S>
+          <S N="versionDownloadCount">134</S>
+          <S N="downloadCount">176</S>
+          <S N="packageSize">9256</S>
+          <S N="published">11/17/2025 6:33:56 AM -05:00</S>
+          <S N="created">11/17/2025 6:33:56 AM -05:00</S>
+          <S N="lastUpdated">5/12/2026 6:20:00 AM -04:00</S>
+          <S N="tags">tree filesystem directory view icon color PSModule PSFunction_TreeView PSCommand_TreeView PSIncludes_Function</S>
           <S N="developmentDependency">False</S>
-          <S N="updated">2026-05-13T00:40:00Z</S>
-          <S N="NormalizedVersion">1.0.1</S>
-          <S N="Authors">sucktravian</S>
+          <S N="updated">2026-05-12T06:20:00Z</S>
+          <S N="NormalizedVersion">1.0.15</S>
+          <S N="Authors">Yue Zhang</S>
           <S N="IsPrerelease">false</S>
           <S N="ItemType">Module</S>
-          <S N="FileList">TreePlus.nuspec|LICENSE|README.md|TreePlus.psd1|TreePlus.psm1|assets\dark-theme.png|tests\output.md|tests\TreePlus.Tests.ps1</S>
-          <S N="Functions">Show-Tree</S>
-          <S N="GUID">011b0df9-11b7-4d99-9168-c11748294427</S>
+          <S N="FileList">TreeView.nuspec|Private\Show-Tree.ps1|Private\Write-OutOrHost.ps1|Private\AnsiColors.ps1|Private\Symbols.ps1|Public\TreeView.ps1|TreeView.psd1|Private\Get-Color.ps1|Private\Test-Terminal.ps1|Tests\TreeView.Tests.ps1|TreeView.psm1|Private\Get-Icon.ps1</S>
+          <S N="GUID">b3359b17-0a90-4f4f-8dfd-cbdd61ed9d51</S>
           <S N="PowerShellVersion">5.1</S>
-          <S N="CompanyName">sucktravian</S>
+          <S N="CompanyName">Unknown</S>
         </MS>
       </Obj>
-      <S N="InstalledLocation">C:\Users\Ozzium\Documents\PowerShell\Modules\TreePlus\1.0.1</S>
+      <S N="InstalledLocation">C:\Users\Ozzium\Documents\PowerShell\Modules\TreeView\1.0.15</S>
     </MS>
   </Obj>
 </Objs>
