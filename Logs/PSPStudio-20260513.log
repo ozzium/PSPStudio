@@ -29,3 +29,16 @@
 [2026-05-13 17:06:30] [INFO] PSPStudio launched.
 [2026-05-13 17:14:23] [INFO] PSPStudio launched.
 [2026-05-13 17:14:40] [INFO] Sandbox profile saved.
+[2026-05-13 18:09:51] [ERROR] Failed rendering tab: Appearance Studio
+[2026-05-13 18:09:51] [INFO] PSPStudio launched.
+[2026-05-13 18:10:55] [ERROR] Failed rendering tab: Appearance Studio
+[2026-05-13 18:10:55] [INFO] PSPStudio launched.
+[2026-05-13 18:14:43] [ERROR] Failed rendering tab: Appearance Studio - Exception setting "Value": "Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and '$Maximum'. (Parameter 'value')
+Actual value was 0."
+[2026-05-13 18:14:46] [INFO] PSPStudio launched.
+[2026-05-13 18:14:56] [ERROR] Failed rendering tab: Appearance Studio - Exception setting "Value": "Value of '0' is not valid for 'Value'. 'Value' should be between 'Minimum' and '$Maximum'. (Parameter 'value')
+Actual value was 0."
+[2026-05-13 18:15:22] [INFO] PSPStudio launched.
+[2026-05-13 18:18:54] [INFO] PSPStudio launched.
+[2026-05-13 18:27:57] [INFO] PSPStudio launched.
+[2026-05-13 18:34:39] [INFO] PSPStudio launched.

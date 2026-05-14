@@ -24,12 +24,13 @@ function Start-PSPStudio {
         $tabPage.Text = $tabDef.Name
 
         try {
-            & $tabDef.Render $tabPage
-        }
-        catch {
-            Write-PSPLog "Failed rendering tab: $($tabDef.Name)" "ERROR"
-        }
-
+    	& $tabDef.Render $tabPage
+	}
+	catch {
+	    $msg = "Failed rendering tab: $($tabDef.Name) - $($_.Exception.Message)"
+	    Write-PSPLog $msg "ERROR"
+	    [System.Windows.Forms.MessageBox]::Show($msg, "PSPStudio Tab Error") | Out-Null
+	}
         $tabs.TabPages.Add($tabPage)
     }
 

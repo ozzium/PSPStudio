@@ -15,6 +15,8 @@ function Get-PSPConfig {
             WindowHeight      = 900
             EnableLogging     = $true
             SandboxMode       = $true
+			BackgroundImage = ""
+			BackgroundOpacity = 0.15
         }
 
         $default | ConvertTo-Json -Depth 5 |
