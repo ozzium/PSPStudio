@@ -109,6 +109,7 @@ $browseBtn.Add_Click({
 
     $saveBtn.Add_Click({
         Save-PSPConfig $Global:PSPConfig
+		Refresh-PSPPreview
 
         [System.Windows.Forms.MessageBox]::Show(
             "Appearance settings saved.",
